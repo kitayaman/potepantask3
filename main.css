@@ -1,0 +1,44 @@
+.stop_watch_area {
+    padding: 0 20px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+
+.timer_box {
+    display: flex;
+    width: 200px;
+    height: 100px;
+    border: solid 3px #f79314;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.timer_separation {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button_area {
+    display: flex;
+    justify-content: center;
+}
+
+.button_area_btn {
+    background-color: grey;
+    border:solid 3px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 10px;
+    padding: 10px;
+    user-select:none;
+}
+
+#start_button {
+    background-color: red;
+}
